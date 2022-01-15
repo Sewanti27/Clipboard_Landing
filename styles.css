@@ -1,0 +1,303 @@
+body{
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+/****TOP IMAGES****/
+.mountains {
+    position: relative;
+    width:1393px;
+}
+@media all and (max-width:600px){
+  .mountains{
+    background-image: url(images\bg-header-mobile.png);
+  }
+}
+.logo {
+    position:absolute;
+    left:45%;
+    top:20%;
+}
+/**HEADING****/
+.bigHeading{
+  font-weight:600;
+  color:hsl(210, 10%, 33%);
+  position:absolute;
+  top:47%;
+  left:28%;
+}
+.mainparagraph{
+  color:hsl(201, 11%, 66%);
+  text-align: center;
+  font-size: 18px;
+  width:46%;
+  margin-left:26%;
+}
+/***BUTTONS*****/
+.buttons{
+  border-style:none;
+  border-radius:50px;
+  -webkit-box-shadow: 2px 4px 5px #666666;
+  -moz-box-shadow: 2px 4px 5px #666666;
+  box-shadow: 2px 4px 5px #666666;
+  margin-top:1%;
+}
+.IOSButton{
+  background-color: hsl(171, 66%, 44%);
+  margin-left:35%;
+
+}
+
+.MacButton{
+  background-color: hsl(233, 100%, 69%);
+  margin-left:1%;
+}
+@media(max-width: 700px) {
+  .mountains{
+    max-width:700px;
+  }
+
+  .logo{
+    max-width:20%;
+  }
+  .bigHeading {
+    position:relative;
+    top:40px;
+    left:15px;
+    text-align: center;
+    width:60%;
+    margin-left:16%;
+    padding-top:5%;
+  }
+  .mainparagraph{
+    text-align: center;
+    margin-top:45px;
+  }
+
+  .buttons{
+    width:90%;
+    margin-left:2%;
+  }
+  }
+
+/*******Second Divison*****/
+.HellDivision{
+  margin-top:15%;
+}
+.SecondHeading{
+   color:hsl(210, 10%, 33%);
+   text-align:center;
+   font-weight: 600;
+}
+
+.Secondparagraph{
+  color:hsl(201, 11%, 66%);
+  text-align: center;
+  font-size: 18px;
+  margin-left:25%;
+  width:50%;
+}
+
+@media(max-width:700px){
+  .HellDivision{
+    margin-top:15%;
+  }
+}
+/***Image***/
+
+.Computer{
+  width:700px;
+  margin-top:10%;
+  float:left;
+  overflow: hidden;
+}
+/****List of Tables*****/
+.Divisiontable{
+  margin-left:55%;
+  margin-top:15%;
+}
+.tableheading{
+  font-weight:800;
+  color:hsl(210, 10%, 33%);
+  margin-top:10%;
+}
+
+.tablepara{
+  width:52%;
+  color:hsl(201, 11%, 66%);
+}
+
+@media(max-width:700px){
+  .Divisiontable{
+    margin-left: 15px;
+    text-align:center;
+    margin-top:95%;
+  }
+
+  .tablepara{
+    margin-left:25%;
+  }
+
+}
+/**** Clipboard *****/
+.Divisionclipboard{
+  margin-top:15%;
+  text-align: center;
+}
+.headingclipboard{
+  color:hsl(210, 10%, 33%);
+  font-weight:600;
+}
+.paraclipboard{
+  color:hsl(201, 11%, 66%);
+  text-align: center;
+  font-size: 18px;
+  width:50%;
+  margin:auto;
+}
+.deviceimg{
+  margin-top: 5%;
+}
+/****Dupercharge***/
+.Superchargedivision{
+  color:hsl(210, 10%, 33%);
+  font-weight:700;
+  text-align: center;
+  font-size: 35px;
+}
+
+.parasupercharge{
+  color:hsl(201, 11%, 66%);
+  text-align: center;
+  font-size: 18px;
+  width:50%;
+  margin:auto;
+
+}
+
+.featurediv{
+  margin-top:10%;
+}
+
+.featureRow{
+  width:95%;
+  margin-left:4%;
+}
+
+.featureicons{
+  margin-left:3%;
+}
+
+.column1{
+  text-align: center;
+}
+
+.column2{
+  text-align: center;
+
+}
+
+.column3{
+  text-align: center;
+
+}
+.marginprob{
+  margin-top: 1%;
+}
+.headingfeat{
+  color:hsl(210, 10%, 33%);
+  font-weight: 700;
+  margin-top:10%;
+}
+.parafeat{
+  color: hsl(201, 11%, 66%);
+  width:90%;
+}
+
+/*****COMPANIES IMAGES*****/
+
+.companies{
+  margin-top:10%;
+}
+.google{
+  margin-left:5%;
+}
+.ibm{
+  margin-left:3%;
+}
+.microsoft{
+  margin-left:2%;
+}
+/****MOBILE COMPANY IMAGES*****/
+@media(max-width:700px){
+  .google{
+    margin-left:30%;
+  }
+  .ibm{
+    margin-left:31%;
+    margin-top:13%;
+  }
+
+  .microsoft{
+    margin-left:28%;
+    margin-top:13%;
+  }
+  .vector{
+    margin-left: 30%;
+    margin-top:13%;
+  }
+
+}
+
+.buttonsection{
+  margin-top:10%;
+}
+
+/*****FOOTER SECTION*******/
+.footersection{
+  background-color:hsl(171, 66%, 95%);
+  margin-top:10%;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+.shortnotes{
+  color:hsl(210, 10%, 33%);
+
+}
+.logocompany1{
+  margin-left: 5%;
+}
+.logocompany{
+  width:65px;
+}
+
+.footericons{
+  width:15%;
+  margin-top: 5%;
+  margin-left:5%;
+}
+
+.twitter{
+  margin-left:15px;
+}
+
+@media(max-width:700px){
+  .logocompany{
+    margin-left:30%;
+  }
+
+  .shortnotes{
+    margin-right:15%;
+    text-align: center;
+  }
+
+  .FAQ{
+    margin-top:5%;
+  }
+
+  .footericons{
+    width: 100%;
+  }
+  .facebook{
+    margin-left:25%;
+  }
+}
