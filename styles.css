@@ -52,15 +52,17 @@ body{
 }
 @media(max-width: 700px) {
   .mountains{
-    max-width:700px;
+    width:600px;
   }
 
   .logo{
+    position:relative;
     max-width:20%;
+    left:40%;
   }
   .bigHeading {
     position:relative;
-    top:40px;
+    top:30px;
     left:15px;
     text-align: center;
     width:60%;
@@ -69,7 +71,7 @@ body{
   }
   .mainparagraph{
     text-align: center;
-    margin-top:45px;
+    margin-top:55px;
   }
 
   .buttons{
